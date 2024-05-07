@@ -6,3 +6,4 @@ pypdf
 streamlit
 pynvml
 torch
+python-dotenv
