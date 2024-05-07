@@ -1,12 +1,8 @@
-langchain 
-faiss-cpu 
-sentence-transformers==2.2.2 
-InstructorEmbedding 
+langchain
+faiss-cpu
+sentence-transformers==2.2.2
+InstructorEmbedding
 pypdf
 streamlit
 pynvml
 torch
-os
-time
-gc
-dotenv
