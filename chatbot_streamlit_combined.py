@@ -94,7 +94,7 @@ def display_chatbot_page():
     if "conversation" not in st.session_state:
         st.session_state.conversation = None
 
-    if create_chatbot:
+    if token:
         st.session_state.conversation = falcon.prepare_rag_llm(
             token, existing_vector_store, temperature, max_length
         )
