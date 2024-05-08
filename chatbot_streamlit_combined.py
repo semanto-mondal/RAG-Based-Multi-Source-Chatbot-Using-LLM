@@ -161,7 +161,7 @@ def display_document_embedding_page():
         with row_1[2]:
             chunk_overlap = st.number_input(
                 "Chunk Overlap", value=10, min_value=0, step=1,
-                help="higher that chunk size"
+                help="Lower than chunk size"
             )
         
         row_2 = st.columns(2)
