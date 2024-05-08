@@ -1,6 +1,6 @@
 # RAG-Based-Multi-Source-Chatbot-Using-LLM
 
-LINK TO THE CHATBOT: [CLICK HERE] (https://rag-based-multi-source-chatbot-using-llm-bbkumqwvqftpjkut7tik6.streamlit.app/)
+LINK TO THE CHATBOT: [CLICK HERE](https://rag-based-multi-source-chatbot-using-llm-bbkumqwvqftpjkut7tik6.streamlit.app/)
 
 **Introduction**
 In general, chatbots are used for information retrieval. Traditional chatbots typically work based on some predefined rules as well as keyword matching. It’s kind of a set of if-else rules predefined by the users. When a user inputs a query, the chatbot searches for specific keywords or patterns in the query to identify the appropriate response. Traditional chatbots rely on a fixed knowledge base or database of predefined responses. The responses are manually inserted into the database by the developer. When a user inserts a query, the chatbot looks for the rules that are suitable based on the question, when it finds the question then it gives the answer that is hardcoded associated with that question. It doesn’t make any paraphrasing or can’t perform any generation. Nowadays, LLM-based chatbots are in the hype. LLM-based chatbots can be of two types.
