@@ -1,11 +1,13 @@
-langchain_community
-langchain
+langchain>=0.2.2
+langchain-huggingface
+langchain-community
 faiss-cpu
-sentence-transformers==2.2.2
+sentence-transformers>=2.2.2
 InstructorEmbedding
 pypdf
 streamlit
 pynvml
-torch
+torch>=2.0.0
+torchvision>=0.15.0
+huggingface_hub>=0.18.0
 python-dotenv
---upgrade langchain-huggingface sentence-transformers huggingface_hub torch torchvision
