@@ -58,7 +58,7 @@ def display_chatbot_page():
             Please Insert the Token and Select Vector Store, Temperature, and Maximum Character Length to create the chatbot.
 
             **NOTE:**
-            - **Token:** API Key From Hugging Face.
+            - **Token:** API Key From Groq.
             - **Temperature:** How much creative the chatbot will be? Don't Insert 0 or More Than 1.""")
         with st.form("setting"):
             row_1 = st.columns(3)
