@@ -12,7 +12,7 @@ load_dotenv()
 #main_placeholder = st.empty()
 #def main_place(message="The Task Is Finished !!!!"):
   # main_placeholder.text(message)
-token=os.getenv("API_KEY")
+token=os.getenv("GROQ_API_KEY")
 # Memory management functions
 def clear_gpu_memory():
     torch.cuda.empty_cache()
@@ -63,10 +63,10 @@ def display_chatbot_page():
         with st.form("setting"):
             row_1 = st.columns(3)
             with row_1[0]:
-                text = st.text_input("Hugging Face Token (No need to insert)", type='password',value= f"{'*' * len(os.getenv('API_KEY'))}")
+                text = st.text_input("Groq Token (No need to insert)", type='password',value= f"{'*' * len(token)}")
 
             with row_1[1]:
-                llm_model = st.text_input("LLM model", value="tiiuae/falcon-7b-instruct")
+                llm_model = st.text_input("LLM model", value="llama3-8b-8192")
 
             with row_1[2]:
                 instruct_embeddings = st.text_input("Instruct Embeddings", value="sentence-transformers/all-MiniLM-L6-v2")
